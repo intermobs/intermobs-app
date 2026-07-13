@@ -19,21 +19,21 @@ function Home() {
       <div className="max-w-5xl mx-auto text-center mb-16">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-medium text-sm mb-6">
           <ShieldCheck size={18} />
-          <span>EFA Safety & Security Portal</span>
+          <span>Intermobs Product</span>
         </div>
         <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight mb-8">
-          Streamlining <span className="text-blue-600">Match Security</span> Reporting
+          Streamlining <span className="text-blue-600">Online Work</span> Safely
         </h1>
         <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-          The official digital workspace for Safety & Security officers. 
-          Standardized, secure, and instant reporting for every Match.
+          The official digital workspace for Online Hustlers. 
+          Standardized, secure, and instant Outcomes.
         </p>
       </div>
       {/* Call to Action */}
       <div className="max-w-2xl mx-auto bg-blue-900 rounded-3xl p-8 md:p-12 text-center text-white shadow-2xl">
         <h2 className="text-3xl font-bold mb-4">Ready to start?</h2>
         <p className="text-blue-100 mb-8 text-lg">
-          Log in to your secure portal to begin Reporting and Managing your match reports.
+          Log in to your secure portal to begin Working and Managing your Data.
         </p>
         <Link
           to="/login"
