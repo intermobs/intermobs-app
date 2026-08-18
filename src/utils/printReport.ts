@@ -19,9 +19,9 @@ export const printReport = (title: string, contentId: string) => {
   const content = source.innerHTML;
 
   // The exact footer text provided, using <br> for proper multi-line structure within HTML
-  const footerText = `Eswatini Football Association<br>
-Plot 582, Sigwaca House, Tsekwane Road, Mbabane Industrial Sites. &nbsp; P. O. Box 641, Mbabane, H100. &nbsp; Tel: +268 - 2404 6852/62. &nbsp; Fax: +268 - 2404 6206<br>
-EMAIL:info@nfas.org.sz &nbsp; Website:www.nfas.org.sz`;
+  const footerText = `Intermobs<br>
+Level 18, Meridian Tower, S88 Global Exchange Boulevarde, Local Industrial Sites. &nbsp; P. O. Box 62, City Town, H100. &nbsp; Tel: +268 - 7675 2532. &nbsp; Fax: outdated <br>
+EMAIL:info@intermobs.org &nbsp; Website:www.intermobs.org`;
 
 
   doc.open();
@@ -141,4 +141,5 @@ EMAIL:info@nfas.org.sz &nbsp; Website:www.nfas.org.sz`;
     </html>
   `);
   doc.close();
+
 };
