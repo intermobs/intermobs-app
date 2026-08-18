@@ -44,7 +44,7 @@ export default function Login() {
             <img src="/safety_logo.png" className="w-12 h-12" />
           </div>
           <h2 className="text-2xl font-bold text-gray-900">Welcome</h2>
-          <p className="text-gray-500 text-sm">Sign in to access your security portal</p>
+          <p className="text-gray-500 text-sm">Sign in to access your Portal</p>
         </div>
 
         {error && (
@@ -101,3 +101,4 @@ export default function Login() {
     </div>
   );
 }
+
