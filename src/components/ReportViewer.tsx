@@ -43,11 +43,11 @@ export function ReportViewer({ data, onClose, title, match }: any) {
           {/* Letterhead */}
           <div className="print-letterhead flex justify-between items-start border-b pb-6">
             <div className="print-letterhead-title">
-              <p className="text-xs uppercase tracking-[0.3em] text-sky-600 font-semibold">EFA Safety & Security</p>
+              <p className="text-xs uppercase tracking-[0.3em] text-sky-600 font-semibold">Intermobs Safety & Security</p>
               <h3 className="text-2xl font-bold text-slate-900 mt-2">{headerTitle}</h3>
             </div>
             <div className="print-letterhead-logo">
-              <img src="/efa_logo.png" alt="EFA" className="w-16 h-16 object-contain" />
+              <img src="/inter_logo.png" alt="intermobs" className="w-16 h-16 object-contain" />
             </div>
           </div>
 
