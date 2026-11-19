@@ -22,7 +22,7 @@ function SplashScreen() {
         <div className="splash-mark">
           <span className="splash-ring splash-ring-outer" />
           <span className="splash-ring splash-ring-inner" />
-          <img src="/efa_logo.png" alt="EFA" />
+          <img src="/inter_logo.png" alt="EFA" />
         </div>
         <p className="splash-kicker">e-Sigwaca</p>
         <h1>Safety &amp; Security Portal</h1>
